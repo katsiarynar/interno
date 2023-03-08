@@ -281,7 +281,31 @@ h3 {
   padding: 10em 0em;
   min-width: 100%;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.numbersall {
+  display: flex;
+  min-width: 60%;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+h7 {
+  font-family: "DM Serif Display";
+  font-size: 85px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #cda274;
+}
+.ysah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .blog {
   margin: 18em 0em;
@@ -435,11 +459,46 @@ h6 {
   .gg {
     max-width: 90%;
   }
+  .header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .banner-elements {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: none;
+  }
   .text {
     flex-wrap: wrap;
+    margin: 0px;
+  }
+  .aboutustext {
+    max-width: none;
+    margin: 10em 0em;
+  }
+  .testi {
+    text-align: center;
   }
   .column {
     flex-wrap: wrap;
+  }
+  .c1 {
+    margin-bottom: 1em;
+  }
+  .clientlogo {
+    margin: 0em;
+  }
+  .blog {
+    margin: 9em 0em;
   }
   .wanna {
     padding: 5em 3em;
@@ -453,5 +512,24 @@ h6 {
   .intdes {
     max-width: 90%;
     align-items: center;
+  }
+  .numbers {
+    padding: 5em 0em;
+  }
+  .numbersall {
+    flex-direction: column;
+    align-items: center;
+  }
+  .svg {
+    display: none;
+  }
+  .footer {
+    margin: 0em 0em 3em;
+  }
+  .footer1 {
+    max-width: none;
+  }
+  .contacts {
+    max-width: none;
   }
 }
