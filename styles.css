@@ -43,9 +43,19 @@ a:visited {
   flex-direction: row;
   list-style-type: none;
   color: rgba(41, 47, 54, 1);
+  align-items: center;
+  align-content: center;
+}
+.navbar3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
 }
 li {
   padding-left: 2em;
+  height: 29px;
 }
 .banner {
   display: flex;
@@ -466,9 +476,10 @@ h6 {
   }
   .navbar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
+    padding: 0em 0em;
   }
   .banner-elements {
     display: flex;
@@ -483,10 +494,11 @@ h6 {
   }
   .aboutustext {
     max-width: none;
-    margin: 10em 0em;
+    margin: 6em 0em;
   }
   .testi {
     text-align: center;
+    margin-bottom: 3em;
   }
   .column {
     flex-wrap: wrap;
@@ -502,6 +514,9 @@ h6 {
   }
   .wanna {
     padding: 5em 3em;
+  }
+  .project {
+    margin: 5em 0em;
   }
   .projecttext {
     margin-left: 1em;
