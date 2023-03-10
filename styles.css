@@ -548,3 +548,61 @@ h6 {
     max-width: none;
   }
 }
+@media screen and (max-width: 1366px) {
+  .header {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .text {
+    margin: 8em 0 0em;
+  }
+  .aboutustext {
+    margin: 10em 0em;
+  }
+  .testi {
+    margin-bottom: 5em;
+  }
+  .column {
+    flex-wrap: wrap;
+  }
+  .c1 {
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+  }
+  .project {
+    margin: 5em 0em;
+  }
+  .numbers {
+    padding: 5em 0em;
+  }
+  .blog {
+    margin: 15em 0em;
+  }
+  .projecttext {
+    margin-bottom: 3em;
+    margin-left: 7em;
+    margin-right: 7em;
+  }
+  .anews {
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 0em;
+  }
+  .tex1 {
+    margin: 11.5em 8em 2em 1em;
+  }
+  .kich,
+  .livdes,
+  .intdes {
+    max-width: 27%;
+  }
+  .wanna {
+    text-align: center;
+    margin-bottom: 5em;
+  }
+  .footer {
+    flex-wrap: nowrap;
+    column-gap: 3em;
+  }
+}
